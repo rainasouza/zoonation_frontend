@@ -1,0 +1,19 @@
+/* NavBar.css */
+.navbar {
+    background: #77628c; }
+
+.navbar-brand {
+    font-weight: 700; 
+}
+
+.nav-link {
+    color: #faf8d7; 
+}
+
+.nav-link:hover {
+    color: #acc6aa; 
+}
+
+.navbar-toggler-icon {
+    background-color: #faf8d7; 
+}

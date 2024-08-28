@@ -1,0 +1,119 @@
+/* Profile.css */
+.profile-container {
+    background: #faf8d7; 
+    min-height: 100vh;
+    padding: 20px;
+}
+
+h2 {
+    color: #77628c; 
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.message {
+    color: #71a0a5; 
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.animal-list {
+    list-style: none;
+    padding: 0;
+}
+
+.animal-list li {
+    background: #ffffff; 
+    border: 1px solid #acc6aa;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.animal-list button {
+    background: #71a0a5; 
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.animal-list button:hover {
+    background-color: #77628c; 
+    transform: scale(1.05); 
+}
+
+form {
+    background: #ffffff; 
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    color: #77628c; 
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #acc6aa; 
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #71a0a5; 
+    outline: none;
+}
+
+form button {
+    background: #71a0a5; 
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 100%;
+}
+
+form button:hover {
+    background-color: #77628c; 
+    transform: scale(1.05);}
+
+.logout-button {
+    background: #acc6aa; 
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background-color 0.3s, transform 0.3s;
+    margin-top: 20px;
+}
+
+.logout-button:hover {
+    background-color: #71a0a5; 
+    transform: scale(1.05); 
+}
